@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
 import Skills from './components/Skills/Skills'
 import Work from './components/Work/Work'
+import Contact from './components/Contact/Contact'
 
 import BlurBlob from './BlurBlob'
 
@@ -24,12 +25,13 @@ function App() {
         <div className='relative pt-20'>
           <Navbar/>
            <About/>
-          {/*<Skills/>
+          <Skills/>
           <Education/>
-          <Experience/>
+          {/*<Experience/>
           <Work/>
           <Footer/>
           <Skills/> */}
+          <Contact/>
         </div>
       </div>
 

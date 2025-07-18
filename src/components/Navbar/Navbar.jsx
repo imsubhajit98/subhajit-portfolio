@@ -30,7 +30,7 @@ export default function Navbar() {
   ];
  
   return (
-    <nav className={`fixed top-0 w-full z-50 transition duration-300 px-[7w] md:px-[7w] lg:px-[20vw] ${isScrolled ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md":"bg-transparent"}`}>
+    <nav className={`fixed top-0 w-full z-50 transition duration-300 px-[7w] md:px-[7w] lg:px-[10vw] ${isScrolled ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md":"bg-transparent"}`}>
       <div className="text-white py-4 flex justify-between items-center">
           {/* Logo */}
           <div className="text-lg font-semibold cursor-pointer">

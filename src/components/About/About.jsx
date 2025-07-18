@@ -1,13 +1,13 @@
 import React from 'react'
 // import { TypeAnimation } from 'react-type-animation'
 import ReactTypingEffect from 'react-typing-effect'
-import profileImage from '../../assets/profile2.png'
+import profileImage from '../../assets/profile.jpg'
 import Tilt from 'react-parallax-tilt';
 
 
 export default function About() {
   return (
-    <section id='about' className='py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32'>
+    <section id='about' className='py-4 pb-5 px-[7vw] md:px-[7vw] lg:px-[10vw] font-sans mt-16 md:mt-22 lg:mt-18'>
       <div className='flex flex-col-reverse md:flex-row justify-between items-center '>
         {/* Left side */}
         <div className='md:w-1/2 text-center md:text-left mt-8 md:mt-0'>
@@ -74,7 +74,6 @@ export default function About() {
             efficient solutions.</p>
             <a href="#" target='_blank' rel='noopener noreferrer' className='inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105 '  style={{background:'linear-gradient(90deg, #8245ec,#a855f7)'}}>Download CV</a>
         </div>
-
 
         <div className='md:w-1/2 flex justify-center md:justify-end'>
         <Tilt className='w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full' 
