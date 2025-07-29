@@ -157,7 +157,7 @@ export const SkillsInfo = [
       school: "Vidyasagar University, Medinipur",
       date: "Aug 2019 - July 2022",
       grade: "81.76%",
-      desc: "I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at Vidyasagar University has been instrumental in shaping my technical abilities and professional growth.",
+      desc: "I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge.",
       degree: "Master of Computer Applications - MCA",
     },
     {
