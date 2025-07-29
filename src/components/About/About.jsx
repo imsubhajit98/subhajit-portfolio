@@ -3,6 +3,7 @@ import React from 'react'
 import ReactTypingEffect from 'react-typing-effect'
 import profileImage from '../../assets/profile.jpg'
 import Tilt from 'react-parallax-tilt';
+import CV from '../../assets/Subhajit_Guchhait.pdf'
 
 
 export default function About() {
@@ -67,12 +68,12 @@ export default function About() {
 
 
           {/* About me paragraph */}
-          <p className='text-base sm:text-lg md:text-lg text-gray-400 mb-19 mt-8 leading-relaxed'>I am a full-stack developer with over 2 years of experience in
-            building scalable web applications. Skilled in both front-end and
-            back-end development, I specialize in the MERN stack and other
-            modern technologies to create seamless user experiences and
-            efficient solutions.</p>
-            <a href="#" target='_blank' rel='noopener noreferrer' className='inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105 '  style={{background:'linear-gradient(90deg, #8245ec,#a855f7)'}}>Download CV</a>
+          <p className='text-base sm:text-lg md:text-lg text-gray-400 mb-19 mt-8 leading-relaxed'>Enthusiastic and detail-oriented Frontend Developer with 2+ years of experience creating responsive, user
+friendly web applications. Skilled in backend development using 
+CodeIgniter. Adept at collaborating with cross-functional teams, contributing to technical documentation, and 
+participating in client meetings. Committed to building intuitive interfaces and delivering seamless digital 
+experiences across devices.</p>
+            <a href={CV} target='_blank' rel='noopener noreferrer' className='inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105 '  style={{background:'linear-gradient(90deg, #8245ec,#a855f7)'}}>Download CV</a>
         </div>
 
         <div className='md:w-1/2 flex justify-center md:justify-end'>

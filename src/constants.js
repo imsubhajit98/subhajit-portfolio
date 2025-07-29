@@ -32,16 +32,24 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
+import php from './assets/tech_logo/php.png'
+import codeIgniter from './assets/tech_logo/CodeIgniter.png'
+import wordpress from './assets/tech_logo/wordpress.png'
+import jquery from './assets/tech_logo/jquery.png'
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+// import webverseLogo from './assets/company_logo/webverse_logo.png';
+// import agcLogo from './assets/company_logo/agc_logo.png';
+// import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+// import agts from './assets/company_logo/agts.png'
+import agtsLogo from './assets/company_logo/agtsindia_logo.jpeg'
+import technosolis from './assets/company_logo/technosolis_informatics_limited_logo.jpeg'
+
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import vu from './assets/education_logo/Vidyasagar_University_Logo.png'
+import debra_clg from './assets/education_logo/debra-clg.jpeg'
+import debra_scl from './assets/education_logo/debra_school.jpeg'
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/github_det.png';
@@ -61,40 +69,35 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
+      // { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-      { name: 'Angular', logo: angularLogo },
-      { name: 'Redux', logo: reduxLogo },
-      { name: 'Next JS', logo: nextjsLogo },
+      // { name: 'Angular', logo: angularLogo },
+      // { name: 'Redux', logo: reduxLogo },
+      // { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       { name: 'GSAP', logo: gsapLogo },
-      { name: 'Material UI', logo: materialuiLogo },
+      // { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
+      {name:'JQuery',logo: jquery}
     ],
   },
   {
     title: 'Backend',
     skills: [
-      { name: 'Springboot', logo: springbootLogo },
+       {name:'CodeIgniter 3', logo: codeIgniter},
+      {name:'Wordpress', logo:wordpress},
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
+      { name: 'MySQL', logo: mysqlLogo },     
     ],
   },
   {
     title: 'Languages',
     skills: [
       { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
-      { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'TypeScript', logo: typescriptLogo },
+      {name:'PHP', logo:php}
     ],
   },
   {
@@ -104,7 +107,6 @@ export const SkillsInfo = [
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
       { name: 'Figma', logo: figmaLogo },
@@ -115,96 +117,76 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
-      img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+      img: agtsLogo,
+      role: "Frontend Developer",
+      company: "Avant Garde Technologies",
+      date: "Sep 2023 - Present",
+      desc: "Led the development of interactive, user-centric web interfaces using React.js, Bootstrap, and JavaScript. Worked closely with backend developers using CodeIgniter to integrate data and ensure smooth functionality. ",
       skills: [
         "HTML",
         "CSS",
         "JavaScript",
         "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
+        "PHP",
+        "Wordpress",
+        "CodeIgniter 3" 
       ],
     },
     {
       id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+      img: technosolis,
+      role: "HTML Developer",
+      company: "Technosolis Informatics Limited",
+      date: "April 2023 - August 2023",
+      desc: "Designed and developed responsive web pages using HTML5, CSS3, Bootstrap, JavaScript, and jQuery. Worked in coordination with senior developers and designers to meet client expectations and project deadlines. Focused on cross-browser compatibility and optimizing page performance for all screen sizes. ",
       skills: [
-        "ReactJS",
-        "Redux",
         "JavaScript",
         "Tailwind CSS",
         "HTML",
         "CSS",
-        "SQL",
-      ],
-    },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
         "Bootstrap",
-        "Figma",
-        "Material UI",
       ],
     },
+    
   ];
   
   export const education = [
     {
       id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
+      img: vu,
+      school: "Vidyasagar University, Medinipur",
+      date: "Aug 2019 - July 2022",
+      grade: "81.76%",
+      desc: "I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at Vidyasagar University has been instrumental in shaping my technical abilities and professional growth.",
       degree: "Master of Computer Applications - MCA",
     },
     {
       id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
+      img: debra_clg,
+      school: "Debra Thana Sahid Kshudiram Mahavidyalaya, Debra",
+      date: "July 2016 - Jun 2019",
+      grade: "57.38%",
+      desc: "Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development.",
+      degree: "Bachelor of Computer Application - BCA",
     },
     {
       id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
+      img: debra_scl,
+      school: "Debra Harimati Saraswat Vidyamandir, Debra",
+      date: "Apr 2014 - March 2016",
+      grade: "75%",
+      desc: "I completed my class 12 education from Debra Harimati Saraswat Vidyamandir School, Debra, under the West Bengal board.",
+      degree: "WBBSE (XII) - Art's with Computer Application",
     },
-    {
-      id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
-    },
+    // {
+    //   id: 3,
+    //   img: vpsLogo,
+    //   school: "Vatsalya Public School Govardhan, Mathura",
+    //   date: "Apr 2015 - March 2016",
+    //   grade: "87.5%",
+    //   desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
+    //   degree: "CBSE(X), Science with Computer Application",
+    // },
   ];
   
   export const projects = [
