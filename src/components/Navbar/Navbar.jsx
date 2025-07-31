@@ -53,13 +53,13 @@ export default function Navbar() {
 
           {/* Social Icons */}
           <div className='hidden md:flex space-x-4'>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]">
+            <a href="https://github.com/imsubhajit98" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]">
               <FaGithub size={20} />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]">
+            <a href="https://www.linkedin.com/in/imsubhajit98" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]">
               <FaLinkedin size={20} />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]">
+            <a href="https://www.facebook.com/imsubhajit98" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#8245ec]">
               <FaFacebook size={20} />
             </a>
           </div>
@@ -92,14 +92,14 @@ export default function Navbar() {
             ))}
               </ul>
               {/* Social Icons */}
-          <div className='flex space-x-4'>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#fff]">
+          <div className='flex justify-content-center space-x-4'>
+            <a href="https://github.com/imsubhajit98" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#fff]">
               <FaGithub size={20} />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#fff]">
+            <a href="https://www.linkedin.com/in/imsubhajit98" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#fff]">
               <FaLinkedin size={20} />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#fff]">
+            <a href="https://www.facebook.com/imsubhajit98" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#fff]">
               <FaFacebook size={20} />
             </a>
           </div>  

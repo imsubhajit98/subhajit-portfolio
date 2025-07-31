@@ -3,7 +3,7 @@ import React from 'react'
 import ReactTypingEffect from 'react-typing-effect'
 import profileImage from '../../assets/profile.jpg'
 import Tilt from 'react-parallax-tilt';
-import CV from '../../assets/Subhajit_Guchhait.pdf'
+import CV from '../../assets/Subhajit-Guchhait.pdf'
 
 
 export default function About() {

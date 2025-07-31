@@ -36,12 +36,9 @@ import php from './assets/tech_logo/php.png'
 import codeIgniter from './assets/tech_logo/CodeIgniter.png'
 import wordpress from './assets/tech_logo/wordpress.png'
 import jquery from './assets/tech_logo/jquery.png'
+import adobe from './assets/tech_logo/adobe.png'
 
 // Experience Section Logo's
-// import webverseLogo from './assets/company_logo/webverse_logo.png';
-// import agcLogo from './assets/company_logo/agc_logo.png';
-// import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
-// import agts from './assets/company_logo/agts.png'
 import agtsLogo from './assets/company_logo/agtsindia_logo.jpeg'
 import technosolis from './assets/company_logo/technosolis_informatics_limited_logo.jpeg'
 
@@ -52,15 +49,16 @@ import debra_clg from './assets/education_logo/debra-clg.jpeg'
 import debra_scl from './assets/education_logo/debra_school.jpeg'
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+import ecom_vente from './assets/work_logo/ecom-vente.png';
+import gme_peru from './assets/work_logo/gme_peru.png'
+import credaikolkata from './assets/work_logo/credaikolkata.jpg' 
+import venkon from './assets/work_logo/venkon.jpg'
+import minibars from './assets/work_logo/minibars.jpg'
+import protactt from './assets/work_logo/protactt.jpg'
+import qrcode from './assets/work_logo/qrcode.jpg'
+import plaudit from './assets/work_logo/plaudit.jpg'
+import adir from './assets/work_logo/adir.jpg'
+
 
 
 export const SkillsInfo = [
@@ -110,6 +108,7 @@ export const SkillsInfo = [
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
       { name: 'Figma', logo: figmaLogo },
+      { name: 'Photoshop', logo: adobe },
     ],
   },
 ];
@@ -138,7 +137,7 @@ export const SkillsInfo = [
       role: "HTML Developer",
       company: "Technosolis Informatics Limited",
       date: "April 2023 - August 2023",
-      desc: "Designed and developed responsive web pages using HTML5, CSS3, Bootstrap, JavaScript, and jQuery. Worked in coordination with senior developers and designers to meet client expectations and project deadlines. Focused on cross-browser compatibility and optimizing page performance for all screen sizes. ",
+      desc: "Designed and developed responsive web pages using HTML5, CSS3, Bootstrap, JavaScript, and jQuery. Worked in coordination with Junior developers and designers. Focused on cross-browser compatibility and optimizing page performance for all screen sizes. ",
       skills: [
         "JavaScript",
         "Tailwind CSS",
@@ -177,107 +176,99 @@ export const SkillsInfo = [
       grade: "75%",
       desc: "I completed my class 12 education from Debra Harimati Saraswat Vidyamandir School, Debra, under the West Bengal board.",
       degree: "WBBSE (XII) - Art's with Computer Application",
-    },
-    // {
-    //   id: 3,
-    //   img: vpsLogo,
-    //   school: "Vatsalya Public School Govardhan, Mathura",
-    //   date: "Apr 2015 - March 2016",
-    //   grade: "87.5%",
-    //   desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-    //   degree: "CBSE(X), Science with Computer Application",
-    // },
+    }
   ];
   
   export const projects = [
     {
       id: 0,
-      title: "GitHub Profile Detective",
+      title: "Digital Transformation for brands",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+        "A powerful and user-friendly Website designed to uncover and showcase detailed most popular and reputed marketplaces online. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
+      image: ecom_vente,
+      tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "JQuery", 'Woredpress'],
+      github: "#",
+      webapp: "https://www.ecomvente.com/",
     },
     {
       id: 1,
-      title: "CS Prep",
+      title: "Durable Tools for Every Mining Industry",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+        "We offer a wide range of rock drilling tools, including jackleg drills, top drills, pneumatic hammers, and a variety of drilling accessories such as lubricators, shank adapters, coupling sleeves, moil bits, chisels, and airline accessories. ",
+      image: gme_peru,
+      tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "JQuery", 'Wordpress'],
+      github: "#",
+      webapp: "https://gme.com.pe/",
     },
     {
       id: 2,
-      title: "Movie Recommendation App",
+      title: "Real Estate Homes Developers Association",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
-    },
-    {
-      id: 3,
-      title: "Email Validator NPM Package",
-      description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+        " We work closely with the government to address development issues and promote Kolkata and the state as a key destination for real estate investment.",
+      image: credaikolkata,
+      tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "JQuery", 'CodeIgniter 3'],
+      github: "#",
+      webapp: "https://www.credaikolkata.org/",
     },
     {
       id: 4,
-      title: "Task Reminder Chrome Extension Tool",
+      title: "We specialize in QR code solutions",
       description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    },
-    {
-      id: 5,
-      title: "Webverse Digital",
-      description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
-    },
-    {
-      id: 6,
-      title: "Coding Master",
-      description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
+        "Scan the QR code to access exclusive content and offers. Stay connected with us for updates and more. Simply scan to discover what's next!",
+      image: qrcode,
+      tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "JQuery", 'CodeIgniter 3', 'PHP'],
+      github: "#",
+      webapp: "https://demoprojects.co.in/qrcode/",
     },
     {
       id: 7,
-      title: "Image Search App",
+      title: "Venkon Software - Driven by Innovation",
       description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
+        "Venkon Software Private Limited is a complete IT and ITES company that specializes in a comprehensive range of services, including software development, network ",
+      image: venkon,
+      tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "JQuery", 'Wordpress'],
+      github: "#",
+      webapp: "https://www.venkonsoftware.com/",
     },
     {
       id: 8,
-      title: "Image Background Remover",
+      title: "Plaudit Techno India",
       description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
+        "We started our journey in 2007 with a vision to popularize the use of e-rickshaws throughout India by establishing the advantages of e-rickshaws over traditional rickshaws and autorickshaws. ",
+      image: plaudit,
+      tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "JQuery", 'Wordpress'],
+      github: "#",
+      webapp: "https://www.plauditerickshaw.com/",
     },
+    {
+      id: 9,
+      title: "Where imagination meets reality",
+      description:
+        "At Adir Bharat, we don't fairly construct homes; we construct prospects where creative energy and reality consistently merge. We bring your vision to life with expertly designed real estate projects. We combine creativity and functionality, crafting spaces that reflect innovation, quality, and a commitment to your future.",
+      image: adir,
+      tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "JQuery", 'Wordpress'],
+      github: "#",
+      webapp: "https://www.adirbharat.com/",
+    },
+    {
+      id: 5,
+      title: "Easy Analytics & Reporting Backdown It",
+      description:
+        "Mini Bar Wine Shop brings the world of wines, spirits, and craft beers right to your fingertips. With an intuitive interface, fast delivery, and personalized recommendations, our app makes it easier than ever to discover and enjoy your favorite drinks anytime, anywhere.",
+      image: minibars,
+      tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "JQuery", 'CodeIgniter 3','PHP'],
+      github: "#",
+      webapp: "https://www.mini-bars.com/",
+    },
+    {
+      id: 6,
+      title: "Seamless Technology for Smarter Infrastructure",
+      description:
+        "We provide certified integrators for enterprise-grade CCTV, access control, fire safety, and network infrastructure across multiple industries.",
+      image: protactt,
+      tags: ["HTML", "CSS", "JavaScript", "Bootstrap", "JQuery", 'Wordpress','PHP'],
+      github: "#",
+      webapp: "https://demoprojects.co.in/protactt-cms/",
+    },
+    
   ];  
